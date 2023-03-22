@@ -1,0 +1,34 @@
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.navbar {
+  display: flex;
+  gap: 40px;
+  padding:10px;
+}
+
+.navbar li a, .navbar li {
+  color:#fff;
+  font-weight: 600;
+  font-style: normal;
+  cursor:pointer;
+}
+
+.navbar li:hover {
+  font-style: italic;
+}
+
+ul.sub-list {
+  position: absolute;
+  z-index: 1000;
+}
+
+.sub-list li{
+  font-weight: normal;
+  padding: 5px 0;
+}

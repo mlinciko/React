@@ -1,0 +1,49 @@
+.contact-us {
+  height: 100vh;
+}
+
+.contact-us-container {
+  display: flex;
+  height: 100%;
+}
+
+.contact-us-left {
+  width: 40%;
+  background-color: #381DDC;
+  color: #fff;
+  padding: 50px;
+}
+
+.contact-us-left-title {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 130%;
+}
+
+.contact-us-left-subtitle {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+}
+
+.contact-us-left-details {
+  margin-top:30px;
+}
+
+.contact-us-left-details-item {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.contact-us-left-details-item img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.contact-us-right {
+  width: 60%;
+  background-color: #F8F8F8;
+  padding: 50px;
+}

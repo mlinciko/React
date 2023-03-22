@@ -1,0 +1,27 @@
+.category {
+  width: 236px;
+  height: 208px;
+  border-radius: 20px;
+}
+
+.category-container {
+  padding:30px;
+}
+
+.category-image {
+  width: 30px;
+}
+
+.category-name {
+  padding-top: 10px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.category-desc {
+  padding-top: 20px;
+}
+
+.white {
+  color: white;
+}
