@@ -1,9 +1,15 @@
 import React, { Component } from 'react';
 import "./contactUs.css";
+import { isAllowed } from '../login/auth';
+import { Navigate } from 'react-router-dom';
 
 class CoutactUs extends Component {
   state = {  } 
   render() { 
+    if (!isAllowed(["can_view_contacts"])) {
+      return <Navigate to="/" replace />;
+    }
+
     return (
       <div className="contact-us">
         <div className="contact-us-container">

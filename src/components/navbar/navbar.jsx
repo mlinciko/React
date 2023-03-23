@@ -14,6 +14,12 @@ class Navbar extends Component {
                 children: [],
             },
             {
+              id: 5,
+              text: "TERMS OF USE",
+              path: "/terms-of-use",
+              children: [],
+            },
+            {
                 id: 2,
                 text: "SPEAKERS",
                 path: "/",

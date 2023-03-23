@@ -1,0 +1,42 @@
+export const CATEGORIES = [
+  {
+    id: 1,
+    name: "Pop",
+    desc: "Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae",
+    icon: "assets/icons/pop.png",
+    color: "#FAF3E8",
+    isWhite: false,
+  },
+  {
+    id: 2,
+    name: "Folk",
+    desc: "Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae",
+    icon: "assets/icons/folk.png",
+    color: "#FFEDED",
+    isWhite: false,
+  },
+  {
+    id: 3,
+    name: "Instrumental",
+    desc: "Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae",
+    icon: "assets/icons/instrumental.png",
+    color: "#381DDB",
+    isWhite: true,
+  },
+  {
+    id: 4,
+    name: "Rock",
+    desc: "Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae",
+    icon: "assets/icons/rock.png",
+    color: "#F8E4F5",
+    isWhite: false,
+  },
+  {
+    id: 5,
+    name: "Jazz",
+    desc: "Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae",
+    icon: "assets/icons/jazz.png",
+    color: "#F3F9FF",
+    isWhite: false,
+  },
+]

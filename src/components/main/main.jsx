@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import main from "../../assets/images/main.svg";
 import "./main.css";
 import Category from '../category/category';
 

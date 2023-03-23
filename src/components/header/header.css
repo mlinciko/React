@@ -30,3 +30,11 @@
   opacity:0.8;
 }
 
+.header-logout {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 20px;
+  color: #fff;
+}
+

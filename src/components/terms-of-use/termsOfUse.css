@@ -1,0 +1,16 @@
+.terms-container {
+  height: 90vh;
+  width: 70%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.terms-title {
+  font-size:16px;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.terms-item {
+  padding: 10px 0;
+}
